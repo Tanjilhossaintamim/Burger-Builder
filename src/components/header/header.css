@@ -1,0 +1,34 @@
+.header {
+    background-color: #D70F64;
+}
+
+.mynavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D70F64;
+    height: 70px;
+
+}
+
+.all-nav-link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.all-nav-link ul li {
+    margin: 0 10px;
+}
+
+.all-nav-link ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color .5s ease-in-out;
+}
+
+.all-nav-link ul li a:hover,.all-nav-link ul li a.active {
+    color: rgb(33, 1, 70);
+}

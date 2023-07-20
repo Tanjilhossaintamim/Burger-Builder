@@ -1,0 +1,16 @@
+export const ADD_INGREDIANT = "ADD_INGREDIANT";
+export const REMOVE_INGREDIANT = "REMOVE_INGREDIANT";
+
+export const UPDATE_PURCSHEABLE = "UPDATE_PURCSHEABLE";
+
+export const RESET_STORE = "RESET_STORE";
+
+export const LOAD_ORDERS = "LOAD_ORDERS";
+export const ORDER_LOAD_ERROR = "ORDER_LOAD_ERROR";
+
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAILED = "AUTH_FAILED";
+export const AUTH_LOADING = "AUTH_LOADING";
+export const USER_LOGOUT = "USER_LOGOUT";
+
+export const AUTH_IS_LOADING = "AUTH_IS_LOADING";
